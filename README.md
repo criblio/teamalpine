@@ -7,7 +7,9 @@ This is how the Cribl Security team shares R&D, threat intel, and related resear
 teamalpine is the outlet for Cribl Security's R&D and threat intel output, covering:
 
 **R&D** — research projects, proof-of-concepts, tooling experiments, and technical write-ups
+
 **Threat intel** — indicators of compromise, threat actor tracking, vulnerability analysis, and industry advisories
+
 **Notes and findings** — research summaries and reference material the team wants to share
 Scope
 
