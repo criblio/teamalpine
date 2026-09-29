@@ -1,0 +1,19 @@
+1. BASELINE: What are the most common processes and parent processes creating files in macOS credential directories over the last 7 days, broken down by host count?
+
+2. For macOS credential directory events in the last 7 days, how many have a populated parent process name and parent process UID versus those that don't?
+
+3. Show me all process creation events from the last 7 days where the command line contains a path to a credential store (Keychains, .aws/credentials, .ssh/, .npmrc, .netrc, .docker/config.json, .kube/config, or Chrome Login Data).
+
+4. What are the distinct parent processes spawning child processes that access credential directories in the last 7 days, ranked by event count, with sample child process names?
+
+5. Show me all credential directory access events from the last 7 days where the parent process is a shell or scripting interpreter (bash, zsh, sh, or osascript), with full command lines, user, host, and timestamp.
+
+6. Show me a timeline of all credential directory access events for thewizard (host 9HMV0H-n3r7) over the last 7 days, including command lines, parent processes, and timestamps in chronological order.
+
+7. Are there any other hosts fleet-wide in the last 7 days where claude.exe or claude is the parent process for commands that access credential stores, keychains, or sensitive config files?
+
+8. What does normal process creation activity look like for thewizard (host 9HMV0H-n3r7) over a 24-hour window? Show me total process count and time range.
+
+9. Can you show me the session prompt data around the time of the keychain dump?
+
+
